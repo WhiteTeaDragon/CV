@@ -23,6 +23,8 @@
 \usepackage{tabularx}
 \usepackage{tikz}
 \usepackage{multirow}
+\usepackage{longtable}
+\setlength{\textheight}{265mm}
 
 \newcommand{\grade}[1]{%
 \begin{tikzpicture}
@@ -116,11 +118,23 @@ ItalicFont = Fontin-Italic.otf
 \section{Education}
 \begin{tabular}{rl}	
 2018 -- 2022 & \textbf{National Research University Higher School of Economics}, Faculty of Computer Science, \\ & Bachelor’s Programme “Applied Mathematics and Information Science”\\
-& GPA: 9.74 / 10 | Current rating: 5 / 217 \\
+& GPA: 9.67 / 10 | Cumulative rating: 1 / 225 \\
 & \textbf{Relevant courses:}\\
-& \tabitem Algorithms and data structures \\
+& \tabitem Machine Learning \\
+& \tabitem Deep Learning, Deep Learning in Audio \\
+& \tabitem Bayesian Methods for Machine Learning \\
 & \tabitem C++, Python programming \\
+& \tabitem Algorithms and data structures \\
 & \tabitem Computer architecture and operating systems \\
+& \tabitem Distributed Systems \\
+& \\
+2021 & \textbf{2-week School ``Fundamentals of Bioinformatics and Mathematical Biology''} \\
+& at Education Center ``Sirius'' for talented students \\
+& \textbf{Courses:}\\
+& \tabitem Algorithms in Bioinformatics \\
+& \tabitem Protein Structure \\
+& \tabitem Molecular Biology \\
+& \tabitem Organic Chemistry \\
 & \\
 2019 & \textbf{Summer internship “Fundamentals of Computer Vision and Machine Learning”} \\
 & by Associate Professor, PhD A. Konushin, grade: 10 points out of 10 \\
@@ -128,17 +142,35 @@ ItalicFont = Fontin-Italic.otf
 & \tabitem Built models and trained artificial neural networks using scikit-learn and keras 
 \end{tabular}
 
+\section{Work Experience}
+\begin{tabular}{rl}
+\hspace{0.9cm} 2021 & \textbf{Summer@EPFL, Switzerland, research internship.} The project topic: \href{https://www.epfl.ch/labs/sacs/completed-student-projects/}{``D-Cliques Construction''}, \\
+& research conducted at SACS (Scalable Computing Systems Lab) under supervision of Postdoc Erick Lavoie\\
+& \tabitem Worked with decentralized machine learning \\
+& \tabitem Developed distributed algorithms for building a communication topology and\\
+& methodology for comparison of these algorithms\\
+%& \tabitem Разрабатывала методологию сравнения таких алгоритмов
+\end{tabular}
+
 \section{Achievements}
 \begin{tabular}{rl}
-\hspace{0.9cm} 2020 & First-degree diploma at \textbf{``Vysshaya Liga''} Olympiad in Applied Mathematics and Informatics \\
+\hspace{0.9cm} 2021 & First place at \textbf{Bachelor Student Research Paper Competition} held by National Research University \\
+&Higher School of Economics \\
 &\\
-\hspace{0.9cm} 2019 & Second place with the team “Granb” in \textbf{Hack.Moscow v3.0} hackathon \\
+2020, 2021 & First-degree diploma at \textbf{``Vysshaya Liga''} Olympiad in Applied Mathematics and Informatics \\
+&\\
+\hspace{0.9cm} 2019 & Second place with the team “Granb” at \textbf{Hack.Moscow v3.0} hackathon \\
 & \tabitem Developed a parser for websites using Python's BeautifulSoup library \\
 & \tabitem Implemented a search for songs using last.fm API \\
 \end{tabular}
 
 \section{Projects}
-\begin{tabular}{rl}
+\begin{longtable}{rl}
+\hspace{0.9cm} 2021 & \textbf{Group research project} ``Stable Neural Network Training Algorithm Based on SVD of Convolutional \\
+&  Layers'', supervisor -- Associate Professor, PhD Maxim Rakhuba \\
+& \tabitem Implemented a new compressed convolutional layer \\
+& \tabitem Proved a theorem about singular values of a convolutional layer in case of multidimensional images \\
+& \\
 \hspace{0.9cm} 2020 & \textbf{Group software project} ``The development of a system for generating 3D-faces'' \\
 & \tabitem Worked with 3D computer graphics \\
 & \tabitem Implemented one out of two steps of an algorithm for example-based facial rigging\\
@@ -146,30 +178,32 @@ ItalicFont = Fontin-Italic.otf
 \hspace{0.9cm} 2020 & Participated in \textbf{The School of Future CTO} \\
 & \tabitem Worked on a service for videocalls \\
 & \tabitem Implemented ORM and Rest Api in Go for database interaction \\
-\end{tabular}
+\end{longtable}
 
 %Section: Scholarships and additional info
 \section{Scholarships}
 \begin{tabular}{rl}
 2018 -- current & Grant of the President of the Russian Federation for talented students \\
 &\\
-2018 -- current & Moscow Government scholarship for distinguished achievements in education \\
+2022, January-June & Travel Grant and Scholarship for the winner of Bachelor Student Research Paper Competition\\
+&\\
+2018 -- 2020 & Moscow Government scholarship for distinguished achievements in education \\
 \end{tabular}
 
 \section{Skills}
 \begin{tabular}{ll|}
+Python:& \grade{5} \\
+{\fb \LaTeX}: & \grade{5} \\
 C/C++: & \grade{4} \\
-Python:& \grade{3} \\
+Java: & \grade{3} \\
 SQL: & \grade{3} \\
-{\fb \LaTeX}: & \grade{3} \\
-Java: & \grade{2} \\
 Go: & \grade{2} \\
 \end{tabular}
-\begin{tabular}{l}
- \textbf{Languages}: Russian (Native), English (Upper-Intermediate)
+\begin{tabular}{ll}
+ \textbf{Languages}:& Russian (Native), English (C1; IELTS: 8.0 out of 9, obtained in 2020), \\ &German (A2)
 \end{tabular}
 
 \section{Scientiﬁc interests}
-Algorithms, Computer Vision, Bioinformatics, Linguistics\\
+Machine Learning, Computer Vision, Audio Processing, Algorithms, Bioinformatics, Linguistics\\
 
 \end{document}
